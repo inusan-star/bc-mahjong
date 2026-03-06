@@ -4,5 +4,15 @@ channels:
   - defaults
 dependencies:
   - python=3.9
+  - git
+  - make
   - pip
   - pip:
+    - --extra-index-url https://download.pytorch.org/whl/nightly/cu126
+    - mjx==0.1.0
+    - rich==14.1.0
+    - torch==2.8.0
+    - torchinfo==1.8.0
+    - tqdm==4.67.1
+    - wandb==0.18.0
+    - -e .

@@ -1,0 +1,13 @@
+# Data
+/data/json_logs/
+/data/mjlogs/
+
+# Mypy
+.mypy_cache/
+
+# Python
+__pycache__/
+*.egg-info/
+
+# Tools
+/mjx-convert/
